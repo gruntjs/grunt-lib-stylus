@@ -1,0 +1,37 @@
+{
+  "name": "grunt-lib-stylus",
+  "description": "Giving your project style to grunt about.",
+  "version": "0.1.0",
+  "homepage": "http://github.com/gruntjs/grunt-lib-stylus",
+  "author": {
+    "name": "Grunt Team",
+    "url": "http://gruntjs.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gruntjs/grunt-lib-stylus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gruntjs/grunt-lib-stylus/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/gruntjs/grunt-lib-stylus/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "stylus": "~0.4.9"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "0.1.0",
+    "grunt": "~0.4.0a"
+  },
+  "main": "lib/stylus"
+}
