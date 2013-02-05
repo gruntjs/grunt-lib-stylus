@@ -27,7 +27,8 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "stylus": "~0.4.9"
+    "stylus": "~0.32.0",
+    "nib": "~0.8.2"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "0.1.0",
